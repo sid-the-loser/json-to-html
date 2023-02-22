@@ -1,6 +1,6 @@
 import json
 
-keywords = ["single", "attributes", "text"]
+keywords = ["single", "attributes", "text", "comment"]
 
 filename = input("Enter the filename: ")
 data = json.load(open(filename, "r"))
