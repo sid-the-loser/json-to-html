@@ -1,6 +1,6 @@
 import json
 
-keywords = ["single", "attributes"]
+keywords = ["single", "attributes", "text"]
 
 filename = input("Enter the filename: ")
 data = json.load(open(filename, "r"))
@@ -26,6 +26,9 @@ def write(d:dict, parent_tag:str):
     flag = True
     if keywords[0] in d and d[keywords[0]]:
         flag = False
+
+    if keywords[2] in d:
+        output += d[keywords[2]]
     
     if flag:
         for i in d:
