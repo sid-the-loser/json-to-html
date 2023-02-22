@@ -1,0 +1,18 @@
+{
+    "head":{ 
+        "title":"Hello world",
+        "link":{
+            "single":true,
+            "attributes":{
+                "rel":"stylesheet",
+                "href":"mystyle.css"
+            }
+        }
+    },
+    "body":{
+        "attributes":{
+            "style":"background:black;color:white;"
+        },
+        "h1":"Hello world"
+    }
+}
