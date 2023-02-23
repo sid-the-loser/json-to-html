@@ -1,25 +1,48 @@
 {
-    "comment":"Just felt like writing this comment to document whatever I was doing...",
     "head":{
-        "title":"Hello world",
+        "title": "Hello world",
+
         "link":{
-            "single":true,
+
             "attributes":{
-                "rel":"stylesheet",
-                "href":"mystyle.css"
-            }
+
+                "rel": "icon",
+                "href": "https://cdn-icons-png.flaticon.com/128/6994/6994770.png"
+            },
+
+            "single": true
         }
     },
-    "comment":"Just felt like writing this comment to document whatever I was doing...another time...",
-    "body":{
-        "attributes":{
-            "style":"background:black;color:white;"
-        },
-        "h1":"Hello world",
-        "div":{
-            "text": "Hello world",
-            "attributes":{
-                "style":"color:grey;"
+    "body": {
+
+        "h1": "Hello World",
+
+        "div": {
+
+            "attributes": {
+
+                "style": "color: black"
+            },
+
+            "h3": "Hello world",
+
+            "a": {
+
+                "attributes":{
+
+                    "target": "_",
+                    "href": "https://www.extremetech.com/extreme/202924-the-25-best-images-from-the-hubble-telescopes-25-years-in-space"
+                },
+
+                "img": {
+
+                    "attributes": {
+                        "style": "width: 10%;",
+                        "src": "https://www.extremetech.com/wp-content/uploads/2015/04/heic1007a.jpg"
+                    },
+
+                    "single": true
+                }
             }
         }
     }
