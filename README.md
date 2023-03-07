@@ -4,5 +4,4 @@ I don't think I'll document this project, but you'll understand everything from 
 OK, its getting late...good night...
 
 ## issue
-- Can't really have two similar tags:
---Eg: {"body":{"h1":"hello world", "h1":"hello"}}, this will only allow one of last H1 tags value to pass through, ie, "hello"
+- Can't really have two similar tags. For example: {"body":{"h1":"hello world", "h1":"hello"}}, this will only allow one of last H1 tags value to pass through, ie, "hello"
